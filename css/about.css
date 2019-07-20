@@ -71,9 +71,9 @@ p {
     margin: 0 auto;
 }
 
-/* Start here  */
-/* Start here  */
-/* Start here  */
+/* Start here */
+/* Start here */
+/* Start here */
 
 header{
     margin-top: 20px;
@@ -93,92 +93,50 @@ header nav a{
     color: black;
 }
 
-.top-content {
+.about{
+    padding: 15px;
+}
+
+.top-half {
+    border-top: 2px dotted black;
+    border-bottom: 2px dotted black;
+    padding: 15px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    justify-content: space-between;
 }
 
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+.top-half div{
+    margin-top: 10px;
 }
 
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+.top-half div img{
+    margin-bottom: 10px;
 }
 
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.middle-content .boxes {
+.bottom-half{
+    border-bottom: 2px dotted black;
+    padding: 15px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    /* background: black; */
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.bottom-half div img{
+    margin-bottom: 10px;
 }
 
-.boxes .teal{
-    background-color: teal;
+
+button{
+    margin-top: 10px;
+    border-radius: 10px;
+    border-color: black;
+    width: 100px;;
+    height: 28px;
+    background-color: white;
 }
 
-.boxes .gold{
-    background-color: gold;
-}
-.boxes .cadetblue{
-    background-color: cadetblue;
-}
-.boxes .coral{
-    background-color: coral;
-}
-.boxes .crimson{
-    background-color: crimson;
-}
-.boxes .forestgreen{
-    background-color: forestgreen;
-}
-.boxes .darkorchid{
-    background-color: darkorchid;
-}
-.boxes .hotpink{
-    background-color: hotpink;
-}
-.boxes .indigo{
-    background-color: indigo;
-}
-.boxes .dodgerblue{
-    background-color: dodgerblue;
-}
-
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+.ending-para div{
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 footer {
